@@ -22,7 +22,7 @@ def guess_the_number():
                 print(f"Поздравляю! Вы угадали число {secret_number} за {attempts} попыток.")
                 break
         except ValueError:
-            print("Некорректный ввод. Пожалуйста, введите целое число.")
+            print("Некорректный ввод. Пож3алуйста, введите целое число.")
         except Exception as e:
             print(f"Произошла непредвиденная ошибка: {e}")
 
